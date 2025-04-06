@@ -33,12 +33,12 @@ https://github.com/ltdrdata/ComfyUI-Impact-Pack[Impact Pack]
 . 仅支持 NVIDIA 显卡，建议先装好最新驱动
 
 . 在
-https://github.com/YanWenKun/ComfyUI-Windows-Portable/releases[发布页面]
+https://github.com/jacktheLad/ComfyUI-Windows-Portable/releases[发布页面]
 下载整合包文件，或者直接下载链接：
 
-** https://github.com/YanWenKun/ComfyUI-Windows-Portable/releases/latest/download/ComfyUI_Windows_portable_cu128.7z.001[ComfyUI_Windows_portable_cu128.7z.001]
-** https://github.com/YanWenKun/ComfyUI-Windows-Portable/releases/latest/download/ComfyUI_Windows_portable_cu128.7z.002[ComfyUI_Windows_portable_cu128.7z.002]
-** https://github.com/YanWenKun/ComfyUI-Windows-Portable/releases/latest/download/models.zip.001[models.zip.001] （模型包，如果是从之前版本升级，不需要下载）
+** https://github.com/jacktheLad/ComfyUI-Windows-Portable/releases/latest/download/ComfyUI_Windows_portable_cu128.7z.001[ComfyUI_Windows_portable_cu128.7z.001]
+** https://github.com/jacktheLad/ComfyUI-Windows-Portable/releases/latest/download/ComfyUI_Windows_portable_cu128.7z.002[ComfyUI_Windows_portable_cu128.7z.002]
+** https://github.com/jacktheLad/ComfyUI-Windows-Portable/releases/latest/download/models.zip.001[models.zip.001] （模型包，如果是从之前版本升级，不需要下载）
 
 ** 打开 `.7z.001` 并解压（建议不要放在太深的目录）；打开 `.zip.001` 并解压到同一个目录。
 
@@ -241,14 +241,14 @@ ComfyUI 有五处常见的模型文件保存位置：
 [[build-your-own]]
 ## 我也想生成整合包！
 
-image:https://github.com/YanWenKun/ComfyUI-Windows-Portable/actions/workflows/build.yml/badge.svg["GitHub 工作流状态",link="https://github.com/YanWenKun/ComfyUI-Windows-Portable/actions/workflows/build.yml"]
+image:https://github.com/jacktheLad/ComfyUI-Windows-Portable/actions/workflows/build.yml/badge.svg["GitHub 工作流状态",link="https://github.com/jacktheLad/ComfyUI-Windows-Portable/actions/workflows/build.yml"]
 
 本仓库使用流水线构建整合包，直接 fork 本仓库即可开始执行 GitHub Workflow。代码库中不含特化配置，也不需要额外配置访问权限。
 
 1. Fork 后，在页面中找到 *Actions*。
 2. 找到 *Build & Upload Package*。
 ** 比如我代码库里的页面长
-https://github.com/YanWenKun/ComfyUI-Windows-Portable/actions/workflows/build.yml[这样]
+https://github.com/jacktheLad/ComfyUI-Windows-Portable/actions/workflows/build.yml[这样]
 3. 找到 *Run Workflow*，点击运行。
 4. 等待执行完毕（20~40分钟）
 5. 找到仓库的 *releases* 页面，里面会有刚生成的草稿，即可下载或编辑发布。

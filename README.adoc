@@ -32,11 +32,11 @@ but preloaded with numerous custom nodes and Python packages, with all dependenc
 . Only NVIDIA GPUs are supported, preferably with the latest driver installed.
 
 . Download the package files from the
-https://github.com/YanWenKun/ComfyUI-Windows-Portable/releases[release page].
+https://github.com/jacktheLad/ComfyUI-Windows-Portable/releases[release page].
 ** Or you can download them directly:
-*** https://github.com/YanWenKun/ComfyUI-Windows-Portable/releases/latest/download/ComfyUI_Windows_portable_cu128.7z.001[ComfyUI_Windows_portable_cu128.7z.001]
-*** https://github.com/YanWenKun/ComfyUI-Windows-Portable/releases/latest/download/ComfyUI_Windows_portable_cu128.7z.002[ComfyUI_Windows_portable_cu128.7z.002]
-*** https://github.com/YanWenKun/ComfyUI-Windows-Portable/releases/latest/download/models.zip.001[models.zip.001] (If you are upgrading from a previous release, you don't need this file.)
+*** https://github.com/jacktheLad/ComfyUI-Windows-Portable/releases/latest/download/ComfyUI_Windows_portable_cu126.7z.001[ComfyUI_Windows_portable_cu126.7z.001]
+*** https://github.com/jacktheLad/ComfyUI-Windows-Portable/releases/latest/download/ComfyUI_Windows_portable_cu126.7z.002[ComfyUI_Windows_portable_cu126.7z.002]
+*** https://github.com/jacktheLad/ComfyUI-Windows-Portable/releases/latest/download/models.zip.001[models.zip.001] (If you are upgrading from a previous release, you don't need this file.)
 
 ** Open the `.7z.001` and extract it to a convenient place. 
 Open the `.zip.001` and extract it to the same place. 
@@ -244,14 +244,14 @@ If compatibility issues arise, you can try disabling conflicting nodes in ComfyU
 [[build-your-own]]
 == Creating Your Own All-In-One Package
 
-image:https://github.com/YanWenKun/ComfyUI-Windows-Portable/actions/workflows/build.yml/badge.svg["GitHub Workflow Status",link="https://github.com/YanWenKun/ComfyUI-Windows-Portable/actions/workflows/build.yml"]
+image:https://github.com/jacktheLad/ComfyUI-Windows-Portable/actions/workflows/build.yml/badge.svg["GitHub Workflow Status",link="https://github.com/jacktheLad/ComfyUI-Windows-Portable/actions/workflows/build.yml"]
 
 This repository utilizes a pipeline to build the package, and the codebase doesn't contain specific configurations or require additional access permissions. Hence, you can directly fork this repository to start executing the GitHub Workflow.
 
 1. After forking, go to *Actions* on the page.
 2. Locate *Build & Upload Package*.
 ** For example, the page in my repository looks like
-https://github.com/YanWenKun/ComfyUI-WinPortable-XPU/actions/workflows/build.yml[this].
+https://github.com/jacktheLad/ComfyUI-WinPortable-XPU/actions/workflows/build.yml[this].
 3. Click *Run Workflow*.
 4. Wait about 20~40 minutes until the workflow run complete.
 5. Go to the *releases* page of your repository, where you will find the newly generated draft, ready for download or editing.

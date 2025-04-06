@@ -2,4 +2,4 @@
 
 This doc is moved to:
 
-https://github.com/YanWenKun/Comfy3D-WinPortable/blob/main/docs/compiling-wheels-for-comfy3d.adoc
+https://github.com/jacktheLad/Comfy3D-WinPortable/blob/main/docs/compiling-wheels-for-comfy3d.adoc
