@@ -15,10 +15,10 @@ Some nodes' dependencies are quite tricky, requiring manual selection to ensure 
 .Upgrading Python Minor Versions
 * Search and replace `3.13.2`.
 * Search and replace `3.13`.
-* Search and replace `cp312`.
-* Search and replace `py312`.
-* Search and replace `python312`.
-* Finally, search `312` to see if anything was missed.
+* Search and replace `cp313`.
+* Search and replace `py313`.
+* Search and replace `python313`.
+* Finally, search `313` to see if anything was missed.
 
 .Upgrading CUDA Versions
 * Search and replace `cu121`.
